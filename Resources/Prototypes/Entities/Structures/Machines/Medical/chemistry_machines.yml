@@ -115,9 +115,30 @@
           False: { visible: False }
   - type: ItemSlots
     slots:
-      mixer:
+      mixer1:
         whitelist:
           tags:
             - CentrifugeCompatible
+      mixer2:
+        whitelist:
+          tags:
+            - CentrifugeCompatible
+      mixer3:
+        whitelist:
+          tags:
+            - CentrifugeCompatible 
+      mixer4:
+        whitelist:
+          tags:
+            - CentrifugeCompatible 
+      mixer5:
+        whitelist:
+          tags:
+            - CentrifugeCompatible 
+      mixer6:
+        whitelist:
+          tags:
+            - CentrifugeCompatible
+
   - type: Machine
     board: CentrifugeMachineCircuitboard
