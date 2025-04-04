@@ -559,3 +559,26 @@
     openOnActivation: true
     guides:
     - Psionics
+
+- type: entity
+  id: BookBotanyIni
+  parent: BaseItem
+  name: Botany
+  description: It was written by very proffesional botanist. Smells of robust harvest
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#0e5a24"
+    - state: decor_wingette
+      color: "#2fa151"
+    - state: icon_cabbage
+    - state: icon_corner
+      color: gold
+  - type: Tag
+    tags:
+    - Book
+  - type: content
+    
